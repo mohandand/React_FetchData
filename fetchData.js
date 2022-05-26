@@ -43,6 +43,7 @@ export default function FetchData() {
   useEffect(() => {
     fetchData_axios();
     fetchData_fetch();
+    fetchData_asyncawait();
   }, []);
 
   return (
